@@ -1,0 +1,7 @@
+.cpcache/
+.shadow-cljs/
+dist/
+node_modules/
+src-tauri/target
+resources/public/js
+resources/public/index.tauri.html

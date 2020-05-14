@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "deps": "yarn install",
+        "watch": "shadow-cljs watch dev",
+        "release": "shadow-cljs release prod && yarn tauri build",
+        "clean": "rm -rf node_modules; rm -rf resources/public/js/compiled; rm -rf .shadow-cljs"
+    },
+    "main": "resources/public/main.js",
+    "dependencies": {
+        "tauri": "^0.6.1",
+        "create-react-class": "^15.6.2",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "shadow-cljs": "^2.0.80"
+    }
+}
