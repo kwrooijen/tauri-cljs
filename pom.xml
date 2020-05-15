@@ -4,18 +4,17 @@
   <groupId>tauri-cljs</groupId>
   <artifactId>lein-template</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <name>lein-template</name>
   <description>A leiningen template for Shadow-cljs + Tauri</description>
   <url>https://github.com/kwrooijen/tauri-cljs</url>
   <licenses>
     <license>
       <name>MIT</name>
-      <url>https://www.eclipse.org/legal/epl-2.0/</url>
     </license>
   </licenses>
   <scm>
-    <tag>7b059108da593f016e93b5aea9caa2e873c7ca4b</tag>
+    <tag>8ae6993227fc7f2c9b1b13dd81338160a059118c</tag>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
