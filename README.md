@@ -36,7 +36,7 @@ will listen. Open another terminal and run the following command to start Tauri.
 
 ```sh
 yarn tauri dev
-```sh
+```
 
 
 ## Troubleshooting
