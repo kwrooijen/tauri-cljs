@@ -1,5 +1,12 @@
 # Tauri Clojurescript
 
+Clojurescript template for using [Tauri](https://github.com/tauri-apps/tauri), a
+tool for building desktop application using web technology.
+
+This template currently includes re-frame. It also has a small example on how
+you can open a file selector dialog, and read a file from your file system using
+the [Tauri API](https://github.com/tauri-apps/tauri/wiki/11.-API).
+
 ## Requirements
 
 * [Latest version of Node](https://nodejs.org/)
