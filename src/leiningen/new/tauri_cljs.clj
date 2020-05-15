@@ -15,9 +15,7 @@
   [(copy-file "src-tauri/Cargo.toml")
    (render-file "src-tauri/Cargo.toml" data)
    (copy-file "src-tauri/rustfmt.toml")
-   (copy-file "src-tauri/tauri.conf.json")
-   ;; (copy-file "src-tauri/tauri.js") ; Generated?
-   ])
+   (copy-file "src-tauri/tauri.conf.json")])
 
 (defn files-src-tauri-src [_data]
   [(copy-file "src-tauri/src/build.rs")
@@ -56,6 +54,7 @@
 (defn files-root [data]
   [[".gitignore" (raw "gitignore")]
    (copy-file "package.json")
+   (render-file "README.md" data)
    (render-file "shadow-cljs.edn" data)])
 
 (defn tauri-cljs

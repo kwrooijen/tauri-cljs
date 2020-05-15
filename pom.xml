@@ -14,7 +14,9 @@
       <url>https://www.eclipse.org/legal/epl-2.0/</url>
     </license>
   </licenses>
-  <scm/>
+  <scm>
+    <tag>cca48780f981c1b9a3f1f08c6bc0d77d529d6bfc</tag>
+  </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <testSourceDirectory>test</testSourceDirectory>

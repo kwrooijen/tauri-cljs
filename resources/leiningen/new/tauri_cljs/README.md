@@ -1,4 +1,4 @@
-# Tauri Clojurescript
+# {{name}}
 
 ## Requirements
 
@@ -8,8 +8,6 @@
 ## Setup
 
 ```sh
-lein new tauri-cljs my-awesome-app +example
-cd my-awesome-app
 yarn deps
 ```
 
@@ -30,9 +28,3 @@ will listen. Open another terminal and run the following command to start Tauri.
 ```sh
 yarn tauri dev
 ```sh
-
-
-## Troubleshooting
-
-Make sure you have the latest version of Node, Tauri requires a very recent
-version.
