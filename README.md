@@ -15,7 +15,7 @@ the [Tauri API](https://github.com/tauri-apps/tauri/wiki/11.-API).
 ## Setup
 
 ```sh
-lein new tauri-cljs my-awesome-app +example
+lein new tauri-cljs my-awesome-app
 cd my-awesome-app
 yarn deps
 ```
