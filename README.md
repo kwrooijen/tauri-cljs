@@ -9,6 +9,7 @@ the [Tauri API](https://github.com/tauri-apps/tauri/wiki/11.-API).
 
 ## Requirements
 
+* [Read the Tauri setup guide](https://tauri.studio/en/docs/getting-started/intro/#setting-up-your-environment)
 * [Latest version of Node](https://nodejs.org/)
 * [Yarn package manager](https://yarnpkg.com/) (alternatively, [npm](https://www.npmjs.com/))
 
@@ -31,7 +32,7 @@ yarn watch
 ```
 
 Next we want to open a Tauri window. Tauri and Shadow-cljs are configured to
-port 3449 by default. Shadow-cljs will server assets from that port, and Tauri
+port 3449 by default. Shadow-cljs will serve assets from that port, and Tauri
 will listen. Open another terminal and run the following command to start Tauri.
 
 ```sh
