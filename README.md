@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This project will no longer receive any updates. Instead you should use the `yarn create tauri-app` command and select Clojurescript. This will use the following template: https://github.com/filipesilva/create-cljs-app
+
 # Tauri Clojurescript
 
 Clojurescript template for using [Tauri](https://github.com/tauri-apps/tauri), a
